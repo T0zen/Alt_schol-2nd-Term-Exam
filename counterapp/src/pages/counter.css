@@ -1,0 +1,7 @@
+.label {
+	margin: 10px;
+}
+
+.counter:focus {
+	cursor: pointer;
+}

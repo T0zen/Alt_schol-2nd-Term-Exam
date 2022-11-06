@@ -1,0 +1,123 @@
+.App {
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	background: #2d2e2f;
+}
+
+nav li {
+	padding-left: 1rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+link {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+	nav {
+		flex-direction: column;
+	}
+	nav ul {
+		flex-direction: column;
+		padding-top: 0.5rem;
+	}
+	a {
+		padding: 0.5rem 0;
+	}
+}
+
+nav h1 {
+	color: white;
+}
+
+a:active,
+a:hover {
+	outline-width: 0;
+	color: white;
+	background-color: rgb(71, 70, 70);
+	padding: 14px 25px;
+	font-family: sans-serif;
+	text-decoration: none;
+	transition: 0.7s;
+}
+a {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.counter {
+	color: #2d2e2f;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.button {
+	font-size: 100px;
+}
+
+.increment,
+.decrement,
+.set,
+.reset {
+	margin: 10px;
+	top: 50%;
+	background-color: #ededed;
+	color: rgb(7, 7, 7);
+	border: none;
+	border-radius: 10px;
+	padding: 15px;
+	min-height: 30px;
+	min-width: 120px;
+	font-family: monospace;
+}
+
+input {
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: rgb(232, 230, 230);
+	padding: 12px;
+	border-radius: 3px;
+	width: 250px;
+	font-family: sans-serif;
+}
+
+input:hover,
+input:focus {
+	background-color: rgb(216, 216, 213);
+	transition: 0.7s;
+}
+
+.decrement:hover,
+.increment:hover,
+.reset:hover,
+.set:hover {
+	color: aliceblue;
+	background-color: #515153;
+	transition: 0.7s;
+}
+
+.counter {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.output {
+	appearance: none;
+	margin: auto;
+	max-width: 50px;
+	padding: auto;
+}
