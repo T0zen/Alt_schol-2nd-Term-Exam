@@ -1,8 +1,7 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
-import ErrorBoundary from "./pages/ErrorBoundary";
-import Counter from "./pages/counter";
 import NotFound from "./pages/NotFound";
+import Counter from "./pages/counter";
 import React from "react";
 import TestCounter from "./TestCounter";
 
